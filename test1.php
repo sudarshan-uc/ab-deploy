@@ -1,5 +1,3 @@
 <?php
-i++
-shell_exec('date >>  ~/test.txt')
-shell_exec('echo $i')
+shell_exec('date >>  /test/1/test.txt')
 ?>
