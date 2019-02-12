@@ -1,4 +1,5 @@
 <?php
+i++
 shell_exec('date >>  ~/test.txt')
-echo "Script ran.!"
+shell_exec('echo $i')
 ?>
